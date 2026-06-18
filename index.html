@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIVRE — Streetwear Casablanca</title>
+<meta name="description" content="VIVRE. Streetwear brand based in Morocco. Real ones only. Limited drops.">
+<link rel="icon" href="assets/logo_mark.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <a href="#top" class="brand">
+    <img src="assets/logo_mark_white.png" alt="VIVRE mark">
+    <span>VIVRE</span>
+  </a>
+
+  <nav class="main-nav">
+    <a href="#manifesto">Philosophie</a>
+    <a href="#shop">Collection</a>
+    <a href="#process">Le process</a>
+    <a href="#drop">Prochain drop</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="header-cta">
+    <a href="#contact" class="btn btn--ghost">Nous suivre</a>
+    <button class="btn btn--solid" data-open-modal>DM pour commander</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- mobile nav panel -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="#manifesto">Philosophie</a>
+  <a href="#shop">Collection</a>
+  <a href="#process">Le process</a>
+  <a href="#drop">Prochain drop</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="assets/product_hoodie_back.jpg" alt="Hoodie VIVRE porté de dos">
+    </div>
+
+    <div class="hero-content">
+      <img src="assets/logo_mark_white.png" alt="" class="hero-mark" id="heroMark">
+      <h1>VIVRE</h1>
+      <p class="hero-sub">Streetwear né à Casablanca. Pièces conçues pour ceux qui vivent avec un but. Pas de règles. Pas de limites. Pas de réassort.</p>
+      <div class="hero-actions">
+        <a href="#shop" class="btn btn--solid">Voir la collection</a>
+        <a href="#manifesto" class="btn btn--ghost">Notre philosophie</a>
+      </div>
+    </div>
+
+    <div class="hero-foot">
+      <div class="eyebrow">Casablanca — Maroc</div>
+      <div class="drop-clock" id="dropClock" aria-label="Compte à rebours avant le prochain drop">
+        <div><span id="cd-d">00</span><small>Jours</small></div>
+        <div><span id="cd-h">00</span><small>Heures</small></div>
+        <div><span id="cd-m">00</span><small>Min</small></div>
+        <div><span id="cd-s">00</span><small>Sec</small></div>
+      </div>
+    </div>
+
+    <div class="scroll-cue"><div class="line"></div></div>
+  </section>
+
+  <!-- ============ MANIFESTO ============ -->
+  <section class="section" id="manifesto">
+    <div class="manifesto">
+      <div class="manifesto-copy" data-reveal>
+        <div class="eyebrow">La philosophie</div>
+        <h2 style="margin-top:16px;">Conçu pour ceux qui vivent avec un but.</h2>
+        <p class="lede">On ne dessine pas pour tout le monde. On dessine pour ceux qui savent déjà qui ils sont. Chaque pièce VIVRE existe parce que quelqu'un avait besoin de porter ce qu'il ne trouvait pas ailleurs : un coton lourd, une construction honnête, rien d'emprunté.</p>
+        <p class="lede">Pas de logo qui crie. Pas de saison qui dicte. Juste des pièces pensées, fabriquées en petites séries, pour des gens réels.</p>
+
+        <div class="tag-list">
+          <div><span>01</span>Fabriqué au Maroc</div>
+          <div><span>02</span>Coton lourd 380g+</div>
+          <div><span>03</span>Séries limitées</div>
+          <div><span>04</span>Sans réassort</div>
+        </div>
+      </div>
+
+      <div class="manifesto-media" data-reveal>
+        <img src="assets/product_sleeve_tag.jpg" alt="Détail de la manche et de l'étiquette VIVRE">
+        <div class="frame-label">Détail — étiquette cousue, manche brodée</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HIGHLIGHTS STRIP ============ -->
+  <div class="highlights">
+    <a class="highlight" href="#drop">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M12 2v14M6 10l6 6 6-6M4 21h16" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Drop</span>
+    </a>
+    <a class="highlight" href="#shop">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M6 8h12l-1 12H7L6 8Z M9 8a3 3 0 0 1 6 0" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Shop</span>
+    </a>
+    <a class="highlight" href="#size-guide">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M3 6h18M3 12h12M3 18h7" stroke-linecap="round"/></svg>
+      <span>Guide des tailles</span>
+    </a>
+    <a class="highlight" href="#contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="9" cy="8" r="3"/><path d="M3 21c0-3.3 2.7-6 6-6s6 2.7 6 6M17 5l2 2-2 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Clients</span>
+    </a>
+    <a class="highlight" href="#shipping">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7zM6 19a2 2 0 1 0 0-4M18 19a2 2 0 1 0 0-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Livraison</span>
+    </a>
+  </div>
+
+  <!-- ============ BANNER ============ -->
+  <section class="banner">
+    <img src="assets/product_lifestyle_two.jpg" alt="Deux personnes portant des sweats VIVRE">
+    <div class="banner-text" data-reveal>
+      <div class="eyebrow">Pour les vrais</div>
+      <h2>Real ones<br>only.</h2>
+    </div>
+  </section>
+
+  <!-- ============ SHOP / COLLECTION ============ -->
+  <section class="section" id="shop">
+    <div class="section-head" data-reveal>
+      <div>
+        <div class="eyebrow">La collection</div>
+        <h2 style="margin-top:16px;">Des pièces,<br>pas des produits.</h2>
+      </div>
+      <p class="lede">Chaque drop est limité. Une fois écoulé, la pièce ne revient pas. Ce qui reste, c'est ce que vous voyez ici.</p>
+    </div>
+
+    <div class="shop-grid" data-reveal>
+
+      <article class="product-card" data-product="hoodie">
+        <div class="product-media">
+          <span class="product-status is-limited">Limité — 12 restants</span>
+          <img src="assets/product_hoodie_back.jpg" alt="VIVRE Hoodie noir, dos floqué">
+        </div>
+        <div class="product-info">
+          <h3>Hoodie VIVRE — Noir</h3>
+          <p>Molleton lourd 420g, floquage dorsal, mark brodé sur la manche. Coupe ample, capuche doublée.</p>
+          <div class="product-foot">
+            <span class="price">650 MAD</span>
+            <button data-notify>Je le veux</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="product-card" data-product="cargo">
+        <div class="product-media">
+          <span class="product-status is-soon">Bientôt</span>
+          <img src="assets/product_standing.jpg" alt="VIVRE pantalon cargo noir avec mark peint">
+        </div>
+        <div class="product-info">
+          <h3>Cargo VIVRE — Noir</h3>
+          <p>Toile resistante, poches utilitaires, mark peint à la main sur la jambe. Pièce signature du prochain drop.</p>
+          <div class="product-foot">
+            <span class="price">à venir</span>
+            <button data-notify>Me prévenir</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="shop-link-card">
+        <div class="eyebrow">Lookbook complet</div>
+        <h3>Tout le drop est sur Instagram.</h3>
+        <p class="lede" style="font-size:14px;">DM pour commander, voir les tailles disponibles et suivre les prochains restocks.</p>
+        <a href="https://instagram.com/vivre" target="_blank" rel="noopener" class="btn btn--ghost">Voir sur Instagram →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="process-media">
+      <img src="assets/product_sleeve_tag.jpg" alt="Gros plan sur le tissu et l'étiquette VIVRE">
+    </div>
+    <div class="process-copy" data-reveal>
+      <div class="eyebrow">Derrière le process</div>
+      <h2>Les détails<br>comptent.</h2>
+      <p class="lede">Chaque pièce est pensée avec intention — du grammage du tissu à la façon dont le mark tombe sur la manche.</p>
+
+      <ul class="process-list">
+        <li>
+          <b>01</b>
+          <div><strong>Le tissu</strong><p>Coton lourd sélectionné pour tenir la forme et la durée, pas seulement le premier lavage.</p></div>
+        </li>
+        <li>
+          <b>02</b>
+          <div><strong>Le mark</strong><p>La silhouette tombante — notre signature, brodée ou peinte à la main selon la pièce.</p></div>
+        </li>
+        <li>
+          <b>03</b>
+          <div><strong>La série</strong><p>Production en petite quantité, à Casablanca. Quand c'est parti, c'est parti.</p></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ DROP / WAITLIST ============ -->
+  <section class="drop-section" id="drop">
+    <div class="eyebrow">Drop limité</div>
+    <h2>Limited<br>drop.</h2>
+    <p class="lede">DM pour commander. Tape avant que ce soit gone. Aucun restock n'est garanti.</p>
+
+    <div class="drop-actions">
+      <button class="btn btn--solid" data-open-modal>DM sur Instagram</button>
+      <a href="#shop" class="btn btn--ghost">Voir ce qui reste</a>
+    </div>
+
+    <form class="waitlist-form" id="waitlistForm">
+      <input type="email" required placeholder="ton-email@exemple.com" aria-label="Adresse email">
+      <button type="submit">Me prévenir</button>
+    </form>
+    <p class="form-note" id="formNote">On t'écrit seulement quand un drop tombe. Pas de spam.</p>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer" id="contact">
+  <div class="wrap footer-top">
+    <div class="footer-brand">
+      <a href="#top" class="brand">
+        <img src="assets/logo_mark_white.png" alt="VIVRE mark">
+        <span>VIVRE</span>
+      </a>
+      <p>Streetwear brand based in Morocco. Real ones only. Limited drops.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#shop">Collection</a></li>
+        <li><a href="#drop">Prochain drop</a></li>
+        <li><a href="#size-guide">Guide des tailles</a></li>
+        <li><a href="#shipping">Livraison</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Infos</h4>
+      <ul>
+        <li><a href="#process">Le process</a></li>
+        <li><a href="#manifesto">Philosophie</a></li>
+        <li><a href="#" data-open-modal>Devenir client B2B</a></li>
+        <li><a href="mailto:contact@vivre-official.com">contact@vivre-official.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Suivre</h4>
+      <ul>
+        <li><a href="https://instagram.com/vivre" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="#">vivre-official.com</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    <span>© <span id="year"></span> VIVRE SARL — Casablanca, Maroc</span>
+    <span>Real ones only.</span>
+  </div>
+</footer>
+
+<!-- ============ MODAL ============ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" data-close-modal aria-label="Fermer">×</button>
+    <div class="eyebrow">Commander</div>
+    <h3 style="margin-top:14px;">On commande par DM.</h3>
+    <p>VIVRE fonctionne en drops limités, sans boutique en ligne classique. Envoie-nous un DM Instagram avec la pièce et la taille qui t'intéressent — on te répond avec la disponibilité et le mode de paiement.</p>
+    <a href="https://instagram.com/vivre" target="_blank" rel="noopener" class="btn btn--solid">Ouvrir Instagram →</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
